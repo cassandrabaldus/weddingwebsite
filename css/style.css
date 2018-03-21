@@ -4,7 +4,12 @@ body{
     background-size: cover;
     font-family: 'Dancing Script', cursive;
 }
-
+#wrapper { width: 80%;
+           min-width: 700px;
+		   max-width: 1024px;
+           margin-right: auto;
+		   margin-left: auto;
+}
 .header {
   height: 50px;
   width: 100%;
@@ -16,6 +21,8 @@ body{
 
 .vertical-menu {
   width: 240px; /* Set a width if you like */
+  float: left;
+  
 }
 
 .vertical-menu a {
