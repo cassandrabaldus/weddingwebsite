@@ -37,8 +37,11 @@ body{
 }
 
 p {
-    text-align: center;
     color: #004;
     font-size: 18px;
 }
 
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
