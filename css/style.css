@@ -52,3 +52,7 @@ h1 {
   font-size: 35px;
   text-align: center;
 }
+
+.clock {
+  padding-left: 10px;
+}
