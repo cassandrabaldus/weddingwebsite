@@ -1,46 +1,50 @@
 body{
-    background-image: url("homepic.jpg");
-    background-repeat: no-repeat;
+    background-image: url("background.png");
+    background-repeat: repeat;
     background-size: cover;
     font-family: 'Dancing Script', cursive;
 }
-#wrapper { width: 80%;
-           min-width: 700px;
-		   max-width: 1024px;
-           margin-right: auto;
-		   margin-left: auto;
+
+#wrapper { 
+    width: 80%;
+    min-width: 700px;
+    max-width: 1024px;
+    margin-right: auto;
+	  margin-left: auto;
 }
+
 .header {
-  height: 50px;
-  width: 100%;
-  margin: 0px auto;
-  text-align: center;
-  background-color: #006;
-  opacity: 0.6;
+    text-align: center;
+    font-size: 40px;
+    filter: blur(-12px);
+}
+
+.header-box {
+    width: 100%;
+    height: 20%;
 }
 
 .vertical-menu {
-  width: 240px; /* Set a width if you like */
-  float: left;
-  
+    width: 240px; 
+    float: left; 
 }
 
 .vertical-menu a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 17px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-  font-size: 20px;
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 17px; 
+    text-decoration: none; 
+    font-size: 20px;
 }
 
 .vertical-menu a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
+    background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
 .vertical-menu a.active {
-  background-color: #006; /* Add a green color to the "active/current" link */
-  color: white;
+    background-color: #006; /* Add a green color to the "active/current" link */
+    color: white;
 }
 
 p {
@@ -49,10 +53,11 @@ p {
 }
 
 h1 {
-  font-size: 35px;
-  text-align: center;
+    font-size: 55px;
+    text-align: center;
+    margin:auto;
 }
 
 .clock {
-  padding-left: 10px;
+    padding-left: 10px;
 }
