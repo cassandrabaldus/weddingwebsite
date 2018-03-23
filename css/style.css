@@ -13,24 +13,13 @@ body{
 	  margin-left: auto;
 }
 
-.header {
-    text-align: center;
-    font-size: 40px;
-    filter: blur(-12px);
-}
-
-.header-box {
-    width: 100%;
-    height: 20%;
-}
-
 .vertical-menu {
     width: 240px; 
     float: left; 
 }
 
 .vertical-menu a {
-    background-color: #eee; 
+    background-color: #FFFFF0; 
     color: black; 
     display: block; 
     padding: 17px; 
@@ -39,12 +28,12 @@ body{
 }
 
 .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
+    background-color: #FFFFF0; /* Dark grey background on mouse-over */
 }
 
 .vertical-menu a.active {
-    background-color: #006; /* Add a green color to the "active/current" link */
-    color: white;
+    background-color: #244360; /* Add a green color to the "active/current" link */
+    color: #FFFFF0;
 }
 
 p {
@@ -52,10 +41,10 @@ p {
     font-size: 18px;
 }
 
-h1 {
-    font-size: 55px;
+h1, h2 {
     text-align: center;
     margin:auto;
+    color: #FFFFF0
 }
 
 .clock {
