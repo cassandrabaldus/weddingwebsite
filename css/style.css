@@ -10,13 +10,16 @@ body{
     min-width: 700px;
     max-width: 1024px;
     margin-right: auto;
-	margin-left: auto;
+    margin-left: auto;
+    float: right;
+    padding: 15px;
 }
 
 .vertical-menu {
     width: 240px; 
     float: left; 
     overflow: auto;
+    border: inset;
 }
 
 .vertical-menu a {
@@ -42,16 +45,33 @@ p {
     font-size: 18px;
 }
 
-h1, h2 {
+h1 {
+    text-align: center;
+    color: #244360;
+    font-size: 60px;
+}
+
+h2 {
     text-align: center;
     margin:auto;
     color: #FFFFF0
 }
 
 #welcome {
-    color: #FFFFF0;
+    color: #244360;
     font-size: 30px;
     margin-left: 25%;
     overflow: auto;
     width: 500px;
+    text-shadow: 2px 2px #FFFFF0;
+    font-weight: bold;
+}
+
+main a {
+    font-size: 20px;
+    color: #244360;
+}
+
+main a.active {
+    color: black;
 }
