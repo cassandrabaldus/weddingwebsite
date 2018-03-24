@@ -3,9 +3,10 @@ body{
     background-repeat: repeat;
     background-size: cover;
     font-family: 'Dancing Script', cursive;
+    width: 100%;
 }
 
-#wrapper { 
+.wrapper { 
     width: 80%;
     min-width: 700px;
     max-width: 1024px;
@@ -16,7 +17,7 @@ body{
 }
 
 .vertical-menu {
-    width: 240px; 
+    width: 16%; 
     float: left; 
     overflow: auto;
     border: inset;
@@ -26,7 +27,7 @@ body{
     background-color: #FFFFF0; 
     color: black; 
     display: block; 
-    padding: 17px; 
+    padding: 12px; 
     text-decoration: none; 
     font-size: 18px;
 }
@@ -48,13 +49,21 @@ p {
 h1 {
     text-align: center;
     color: #244360;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 h2 {
     text-align: center;
     margin:auto;
-    color: #FFFFF0
+    color: #FFFFF0;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: #FFFFF0;
 }
 
 #welcome {
@@ -62,7 +71,7 @@ h2 {
     font-size: 30px;
     margin-left: 25%;
     overflow: auto;
-    width: 500px;
+    width: 40%;
     text-shadow: 2px 2px #FFFFF0;
     font-weight: bold;
 }
@@ -75,3 +84,4 @@ main a {
 main a.active {
     color: black;
 }
+

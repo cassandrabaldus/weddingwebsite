@@ -69,11 +69,11 @@
   position: relative;
   float: left;
   margin: 5px;
-  width: 50px;
-  height: 80px;
-  font-size: 60px;
+  width: 40px;
+  height: 70px;
+  font-size: 45px;
   font-weight: bold;
-  line-height: 87px;
+  line-height: 82px;
   border-radius: 6px;
   background: #000;
 }
@@ -155,7 +155,7 @@
   text-align: center;
   background-color: #333;
   border-radius: 6px;
-  font-size: 70px; }
+  font-size: 50px; }
 
 .flip-clock-wrapper ul li a div.up div.inn {
   top: 0; }
