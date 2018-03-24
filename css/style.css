@@ -10,12 +10,13 @@ body{
     min-width: 700px;
     max-width: 1024px;
     margin-right: auto;
-	  margin-left: auto;
+	margin-left: auto;
 }
 
 .vertical-menu {
     width: 240px; 
     float: left; 
+    overflow: auto;
 }
 
 .vertical-menu a {
@@ -24,15 +25,15 @@ body{
     display: block; 
     padding: 17px; 
     text-decoration: none; 
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .vertical-menu a:hover {
-    background-color: #FFFFF0; /* Dark grey background on mouse-over */
+    background-color: #FFFFF0; 
 }
 
 .vertical-menu a.active {
-    background-color: #244360; /* Add a green color to the "active/current" link */
+    background-color: #244360; 
     color: #FFFFF0;
 }
 
@@ -47,6 +48,10 @@ h1, h2 {
     color: #FFFFF0
 }
 
-.clock {
-    padding-left: 10px;
+#welcome {
+    color: #FFFFF0;
+    font-size: 30px;
+    margin-left: 25%;
+    overflow: auto;
+    width: 500px;
 }
