@@ -16,29 +16,42 @@ body{
     padding: 15px;
 }
 
-.vertical-menu {
-    width: 16%; 
-    float: left; 
-    overflow: auto;
-    border: inset;
-}
-
-.vertical-menu a {
+.sidenav {
+    height: 100%; 
+    width: 170px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
     background-color: #FFFFF0; 
-    color: black; 
-    display: block; 
-    padding: 12px; 
-    text-decoration: none; 
-    font-size: 18px;
+    overflow-x: hidden; 
+    padding-top: 20px;
 }
 
-.vertical-menu a:hover {
-    background-color: #FFFFF0; 
+.sidenav a {
+    padding: 10px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #244360;
+    display: block;
 }
 
-.vertical-menu a.active {
-    background-color: #244360; 
-    color: #FFFFF0;
+.sidenav a:hover {
+    color: 	#68A5E4;
+}
+
+.sidenav a:active {
+    background-color: #244360;
+}
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 p {
