@@ -102,4 +102,13 @@ main a.active {
     font-size: 28px;
 }
 
+#lovestory {
+    text-align: center;
+    font-size: 28px;
+    width: 70%;
+    min-width: 700px;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
