@@ -112,3 +112,10 @@ main a.active {
     margin-left: auto;
 }
 
+#map {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 400px;
+}
+

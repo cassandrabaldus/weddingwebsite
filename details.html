@@ -8,16 +8,7 @@
     </head>
 	
     <body>
-        <div class="wrapper">
-            <h1 style="text-align:left">Wedding Details</h1>
-            <p>
-                July 7th, 2018 <br>
-                Brookside Gardens <br>
-
-            </p>
-        </div>
-		
-<!-- vertical navigation bar -->
+        <!-- vertical navigation bar -->
         <div class="sidenav">
             <a class="active" href="index.html">Home</a>
             <a href="details.html">Wedding Details and Registry</a>
@@ -26,6 +17,28 @@
             <a href="meetthemen.html">Meet the Men</a>
             <a href="rsvp.html">RSVP</a>
             <a href="suggest.html">Suggest a Song</a>
+        </div>
+
+        <div class="wrapper">
+            <h1 style="text-align:left">Wedding Details</h1>
+            <p>
+                July 7th, 2018 <br>
+                Brookside Gardens <br>
+                624 E 63rd St, Kansas City, MO 64110<br>
+            </p>
+        </div>
+        <div class="wrapper" id="map">
+            <script>
+                function myMap() {
+                    var mapOptions = {
+                        center: new google.maps.LatLng(39.013752, -94.580217),
+                        zoom: 18,
+                        mapTypeId: google.maps.MapTypeId.HYBRID
+                    }
+                    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
         </div>
     </body>
 </html>
