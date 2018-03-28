@@ -49,6 +49,7 @@ body{
     padding: 0px 10px;
 }
 
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -131,4 +132,14 @@ form {
 
 .themaids {
     content-align: center;
+}
+.meet h2{
+	color: black;
+	line-height: 280px;
+}
+.meet img{
+	float: left;
+}
+.clear{
+	float: clear;
 }
