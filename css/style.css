@@ -123,3 +123,8 @@ main a.active {
 video {
     margin-left:32%;
 }
+
+form {
+    font-size: 28px;
+    text-align: center;
+}
