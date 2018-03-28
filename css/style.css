@@ -115,7 +115,11 @@ main a.active {
 #map {
     margin-right: auto;
     margin-left: auto;
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 300px;
+    align-content: left;
 }
 
+video {
+    margin-left:32%;
+}
