@@ -16,6 +16,10 @@ body{
     padding: 15px;
 }
 
+.wrapper a {
+    font-size: 28px;
+}
+
 .sidenav {
     height: 100%; 
     width: 170px; 
