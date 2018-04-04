@@ -30,17 +30,23 @@
             </p>
         </div>
         <div class="wrapper" id="map">
-            <script>
-                function myMap() {
-                    var mapOptions = {
-                        center: new google.maps.LatLng(39.013752, -94.580217),
-                        zoom: 20,
-                        mapTypeId: google.maps.MapTypeId.HYBRID
-                    }
-                    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                <div id="map"></div>
+                <script>
+                function initMap() {
+                    var uluru = {lat: 39.013752, lng: -94.580217};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 16,
+                    center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                    });
                 }
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+                </script>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLcO56MMNZscWjxGqxmKFwCdu8RVwO534&callback=initMap">
+                </script>
             <p>Brookside Gardens
                 624 E 63rd St
                 Kansas City, MO 64110
